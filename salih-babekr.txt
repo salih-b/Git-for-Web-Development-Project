@@ -1,0 +1,110 @@
+// here is my forked codepen for tonight woow//
+https://codepen.io/salihm1717/pen/RwNBoZr?editors=1100
+
+//here are the questions//
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+semantic html is using html tags that tellyou the meaning behind their use. its helpful to use it because it helps other developers understand what is going on with you.
+    2. What is HTML used for? 
+HTML is a mark up language, mostly used for the page foundation, its structure, and the actaul content is written in html. 
+    3. What is an attribute and where do we put it? 
+attributes allow extra data, supply a link or an image.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+h1 is used for the most important data, what you want to stick out. it should be used less frequently than other elements. 
+    5. Name two tags that have required attributes
+anchor tag and image tag
+    6. What do we put in the head of our HTML document? 
+data to browser that is not displayed on screen, css, java etc. 
+    7. What is an id? 
+id can only be used for one element and they are tools that help specify directions to that one element. 
+    8. What elements can I add an id to? 
+any element. 
+    9. How many times can I use the same id on a page? 
+as many times as needed. 
+    10. What is a class? 
+classes are also tools that help specify direction, unlike id it can be used on many elements in the same time.
+    11. What elements can I add a class to? 
+any element
+    12. How many times can I use the same class on a page? 
+as many times as needed.
+    13. How do I get my link to open in a new tab?
+using the anchor tag with href attribute allows us to open any link if we want it to open in a new tab we can add target=”_blank”
+it should look something like this
+<!--< a href=”TargetLink.html” target=”_blank”>Text That Will Appear</a >-->
+
+    14. What is the alt attribute used for? 
+allows you to provide a text equivalent for the object.
+    15. How do I reference an id?
+in css #idname{}
+    16. What is the difference between a section and a div
+semantics 
+    17. What is CSS used for? 
+styling the page. 
+    18. How to we select an element? Example - every h2 on the page
+element{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+id's are more specific than classes. i'd use a class when i want to style many different types of elements but i would
+use an ID to style one specific DATA or line .
+    20. How do we select classes in CSS?
+period classname{
+
+}
+    21. How do we select a p element with a single class of “human””?
+p.human{}
+    22. What is a parent child selector? When would this be useful? 
+the parent and child relationship is when you have an element nested inside another element the nested element is 
+the child and the one nesting is the parent. the parent attributes effect all under it unless specified other wise thats why it can be 
+useful. 
+    23. How do you select all links within a div with the class of sidebar?
+.sidebar{
+
+}
+    24. What is a pseudo selector?
+acts as if you have added a class to an element in your markup
+
+    25. What do we use the change the spacing between lines?
+    26. What do we use to change the spacing between letters?
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercase, lowercase, Capitalize;
+    28. How do I add a 1px border around my div that is dotted and black?
+border:1px dotted black;
+    29. How do I select everything on the page? 
+*{}
+    30. How do I write a comment in CSS?
+/* comment */
+    31. How do I find out what file I am in, when I am using the command line? 
+pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm, it will remove it permentally without warning
+    34. Why should I use version control? 
+it keeps track of all changes made to project helps collabration 
+    35. How often should I commit to github?
+whenever you feel confident in your code path.
+    36. What is the command we would use to push our repo up to github? 
+git push -u orgin branchname
+    37. Walk me through Lambda's git flow. 
+fork first, add tl to collaberator, clone, go to git bash cd into the file you want, git clone link,
+ cd into proj branch by git checkou -b"firsnam-lastnam1'
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+inline allows element to be nested within each other without disturbing the flow of content and height and width have no effect
+block takes up as much space as their parent allows need to use with width and height. 
+    2. What happens when an element is positioned absolutely? 
+its fixed connot adjusted for move. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+display:inline-block;
+width: ;
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 
+    element that is display inline-block by default
+display block: div, section, h1
+display inline: span, a 
+display inline-block: 
+    5. In your own words, explain the box model. What is the fix for the box model? 
+box model is the space that has the content and its surroundings, flex. 
+
